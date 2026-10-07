@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio : Shivam Dixit</title>
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+  <h2>Shivam Dixit</h2>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>  
+    <a href="#skills">Skills</a>    
+    <a href="#projects">Projects</a>    
+    <a href="#contact">Contact</a>
+  </div>
+    </nav>
+  <!-- Hero section -->
+   <section id="home">
+    <div class="hero-content">
+         <h3>Hello I am</h3>
+    <h1>Shivam Dixit</h1>
+    <h2>BSC Final Year Student</h2>
+    <p>I am learning web development and building my skills in HTML,<br>
+         CSS and JavaScript.</p>
+    <a href="#about">Know More</a>
+    </div>
+    <div class="hero-image">
+                <img src="/images/profile-main.avif"  alt="profile image">
+
+    </div>
+   </section>
+   <hr>
+   <!-- About section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-section">
+                    <img src="/images/profile-image.jpg"  alt="profile image">
+                    <div class="about-content">
+                                <h3>Hello! I am Shivam Dixit</h3>
+                                            <p>I am a BSC final Year student from MIMT Colleg Narsinghpur. I am interested in<br>
+             technology, computers and learning new skills.</p>
+    <p>Currently, I am learning HTML, CSS and JavaScript and working <br>
+        towards becoming a better developer.</p>
+    <p>My goal is to build useful websites and continue improving my <br>
+        technical skills.</p>
+
+                    </div>
+        </div>
+    </section>
+     <!-- Skills section -->
+     <section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-card-section">
+
+        <div class="skills-card">
+            <h3>HTML</h3>
+            <p>Building the structure of web pages.</p>
+            <div class="skill-tags">
+                <span>Semantic HTML</span>
+                <span>Forms</span>
+                <span>Lists,Tables</span>
+            </div>
+        </div>
+
+        <div class="skills-card">
+            <h3>CSS</h3>
+            <p>Designing and styling websites.</p>
+
+            <div class="skill-tags">
+                <span>Flexbox</span>
+                <span>Responsive Design</span>
+                <span>Layouts</span>
+            </div>
+        </div>
+
+        <div class="skills-card">
+            <h3>JavaScript</h3>
+            <p>Adding interaction and functionality.</p>
+
+            <div class="skill-tags">
+                <span>DOM</span>
+                <span>Events</span>
+                <span>Functions</span>
+            </div>
+        </div>
+
+        <div class="skills-card">
+            <h3>Computer Skills</h3>
+            <p>Basic computer and internet knowledge.</p>
+
+            <div class="skill-tags">
+                <span>Internet</span>
+                <span>MS Office</span>
+                <span>File Management</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- ================= PROJECTS SECTION ================= -->
+
+<section class="projects" id="projects">
+
+    <h2>My Projects</h2>
+
+    <p class="projects-intro">
+        Some projects I have created while learning web development.
+    </p>
+
+    <div class="project-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="images/portfolio-website.jpg" alt="Portfolio Website">
+            </div>
+
+            <div class="project-content">
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website
+                    created using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="images/job-portal.jpeg" alt="Job Portal">
+            </div>
+
+            <div class="project-content">
+
+                <h3>Job Portal Website</h3>
+
+                <p>
+                    A job portal website where users can
+                    explore different job opportunities.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="images/js-calculator.png" alt="Calculator">
+            </div>
+
+            <div class="project-content">
+
+                <h3>JavaScript Calculator</h3>
+
+                <p>
+                    A simple calculator built using HTML,
+                    CSS and JavaScript with interactive buttons.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+   <section id="contact">
+    <div class="contactHeading">
+        <p>
+            GET IN TOUCH
+            </p>
+    <h2>Contact Me
+</h2>
+    </div>
+    <div class="Contactdiv">
+
+        <div class="contact-form">
+<input type="text" placeholder="Name" id="name"><br>
+<input type="text" placeholder="Email" id="email"><br>
+<input type="text" placeholder="Subject" id="subject"><br>
+<textarea rows="5" placeholder="Message" id="message"></textarea><br>
+<button onclick="sendMessage()">Send Message</button>
+</div>
+<div class="contactInfo">
+    <div class="contactEmail">
+    <h3>Email</h3>
+    <p>dshivam504@gmail.com</p>
+    </div>
+    <div class="contactNo">
+ <h3>Phone</h3>
+    <p>+91-9876543210</p>
+    </div>
+   <div class="contactLocation">
+  <h3>Location</h3>
+    <p>Narsinghpur,M.P., India</p>
+   </div>
+   <div class="contactLinks">
+    <h3>Follow Me</h3>
+    <div>
+        <a href="https://www.linkedin.com/in/shivamdixit" target="_blank">LinkedIn</a>
+        <a href="https://github.com/shivamdixit" target="_blank">Github</a>
+        <a href="https://www.instagram.com/shivamdixit" target="_blank">Instagram</a>
+    </div>
+   </div>
+</div>
+    </div>
+
+   </section>
+   <footer>
+       <p>© Copyright 2026 Shivam Dixit.All Rights Reserved.</p>
+   </footer>
+</body>
+</html>
